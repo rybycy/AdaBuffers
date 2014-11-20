@@ -1,0 +1,33 @@
+V "GNAT Lib v4.6"
+A -gnatA
+P ZX
+R nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnvnnnnnnnnvnnnnnnnnnvnnnnnnnv2nv2nnnnnnnn
+
+U buffers%b		buffers.adb		d9ddadfb NE OO PK GE
+
+U buffers%s		buffers.ads		56f6dfcf BN EE NE OO PK GE
+
+D buffers.ads		20141118190828 56f6dfcf
+D buffers.adb		20141118185903 8f2b7234
+D system.ads		20121016191316 23e1f70b
+X 1 buffers.ads
+2i4 Size{positive}
+4+9 Element 7r28 8r29 13r30 14r31 2|2r30 7r31 15r32 20r38 26r38
+5k9*Buffers 2z4 4z9 16l5 16e12 2|1b14 35l5 35t12
+6T14*BufferTask 9l8 9e18 11r9 2|12b14 33l8 33t18
+7Y13 Put 7>19 2|4s10 20b23 23l20 23t23
+7*19 Obj{4+9} 2|22r42
+8Y13 Get 8<19 2|9s10 26b23 29l20 29t23
+8*19 Obj{4+9} 2|27m19
+11t4*BT{6T14} 2|4r7 9r7
+13U14*Putt 13>21 2|2b14 5l8 5t12
+13*21 Obj{4+9} 2|2b21 4r14
+14U14*Gett 14<21 2|7b14 10l8 10t12
+14*21 Obj{4+9} 2|7b21 9m14
+X 2 buffers.adb
+13i7 Size{integer} 15r23 19r32
+14i7 Actual_Size{integer} 19r18 21m19 21r34 22r25 25r18 27r33 28m19 28r34
+15a7 Data(1|4+9) 22m19 27r26
+20*29 Obj{1|4+9}
+26*28 Obj{1|4+9}
+

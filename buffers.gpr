@@ -1,0 +1,7 @@
+project Buffers is
+
+   for Source_Files use ("buffers.adb", "buffers.ads", "main.adb");
+   for Main use ("main.adb");
+
+end Buffers;
+
