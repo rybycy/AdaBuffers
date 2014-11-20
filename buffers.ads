@@ -1,17 +1,12 @@
-
 generic
-   Size: Positive;
-   type Element is private;
-   BT : BufferTask;
+   Size: in Positive;
+   type Elem;
 
 package Buffers is
 
-   --task type BufferTask is
-   --   entry Put ( Obj : in Element );
-   --   entry Get ( Obj : out Element );
-   --end BufferTask;
-
-   procedure Putt ( Obj : in Element );
-   procedure Gett ( Obj : out Element );
+   task type Buffer is
+      entry Put ( Obj : in Integer );
+      entry Get ( Obj : out Integer );
+   end Buffer;
 
 end Buffers;

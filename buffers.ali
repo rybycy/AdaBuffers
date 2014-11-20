@@ -1,33 +1,76 @@
-V "GNAT Lib v4.6"
+V "GNAT Lib v2014"
 A -gnatA
 P ZX
-R nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnvnnnnnnnnvnnnnnnnnnvnnnnnnnv2nv2nnnnnnnn
 
-U buffers%b		buffers.adb		d9ddadfb NE OO PK GE
+RN
+RV NO_DIRECT_BOOLEAN_OPERATORS
+RV NO_IO
+RV NO_SELECT_STATEMENTS
+RV NO_TASKING
+RV NO_TERMINATE_ALTERNATIVES
+RV NO_IMPLEMENTATION_PRAGMAS
+RV SPARK_05
+RV MAX_SELECT_ALTERNATIVES=3
+RV MAX_TASK_ENTRIES=2
 
-U buffers%s		buffers.ads		56f6dfcf BN EE NE OO PK GE
+U buffers%b		buffers.adb		c5fcc69d NE OO PK GE
+W ada%s			ada.ads			ada.ali
+W ada.integer_text_io%s	a-inteio.ads		a-inteio.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
 
-D buffers.ads		20141118190828 56f6dfcf
-D buffers.adb		20141118185903 8f2b7234
-D system.ads		20121016191316 23e1f70b
-X 1 buffers.ads
-2i4 Size{positive}
-4+9 Element 7r28 8r29 13r30 14r31 2|2r30 7r31 15r32 20r38 26r38
-5k9*Buffers 2z4 4z9 16l5 16e12 2|1b14 35l5 35t12
-6T14*BufferTask 9l8 9e18 11r9 2|12b14 33l8 33t18
-7Y13 Put 7>19 2|4s10 20b23 23l20 23t23
-7*19 Obj{4+9} 2|22r42
-8Y13 Get 8<19 2|9s10 26b23 29l20 29t23
-8*19 Obj{4+9} 2|27m19
-11t4*BT{6T14} 2|4r7 9r7
-13U14*Putt 13>21 2|2b14 5l8 5t12
-13*21 Obj{4+9} 2|2b21 4r14
-14U14*Gett 14<21 2|7b14 10l8 10t12
-14*21 Obj{4+9} 2|7b21 9m14
-X 2 buffers.adb
-13i7 Size{integer} 15r23 19r32
-14i7 Actual_Size{integer} 19r18 21m19 21r34 22r25 25r18 27r33 28m19 28r34
-15a7 Data(1|4+9) 22m19 27r26
-20*29 Obj{1|4+9}
-26*28 Obj{1|4+9}
+U buffers%s		buffers.ads		2f9119fd BN EE NE OO PK GE
+
+D ada.ads		20140406181354 3ffc8e18 ada%s
+D a-except.ads		20140406181356 43d57f8c ada.exceptions%s
+D a-finali.ads		20140406181359 69f99942 ada.finalization%s
+D a-inteio.ads		20140406181359 f64b89a4 ada.integer_text_io%s
+D a-ioexce.ads		20140406181358 e4a01f64 ada.io_exceptions%s
+D a-stream.ads		20140406181355 1a984740 ada.streams%s
+D a-tags.ads		20140406181357 dc4d0634 ada.tags%s
+D a-textio.ads		20140406181359 386df5d4 ada.text_io%s
+D a-tiinio.ads		20140406181359 aa04e5d6 ada.text_io.integer_io%s
+D a-unccon.ads		20140406181359 f9eb8f06 ada.unchecked_conversion%s
+D buffers.ads		20141120164932 2f9119fd buffers%s
+D buffers.adb		20141120165659 244ba310 buffers%b
+D interfac.ads		20140406181359 69adb1b9 interfaces%s
+D i-cstrea.ads		20140406181357 febc86ed interfaces.c_streams%s
+D system.ads		20140406181354 90249111 system%s
+D s-crtl.ads		20140406181356 2c012597 system.crtl%s
+D s-exctab.ads		20140406181354 54135002 system.exception_table%s
+D s-ficobl.ads		20140406181355 078245e4 system.file_control_block%s
+D s-finmas.ads		20140406181356 814daec4 system.finalization_masters%s
+D s-finroo.ads		20140406181359 4ff27390 system.finalization_root%s
+D s-parame.ads		20140406181358 06da98b2 system.parameters%s
+D s-pooglo.ads		20140406181357 542f33d0 system.pool_global%s
+D s-soflin.ads		20140406181358 aa763b52 system.soft_links%s
+D s-stache.ads		20140406181355 a37c21ec system.stack_checking%s
+D s-stalib.ads		20140406181355 fa0a3617 system.standard_library%s
+D s-stoele.ads		20140406181357 2dc34a04 system.storage_elements%s
+D s-stoele.adb		20140406181355 ed88f8fb system.storage_elements%b
+D s-stopoo.ads		20140406181357 b16154c2 system.storage_pools%s
+D s-traent.ads		20140406181355 b5116092 system.traceback_entries%s
+D s-unstyp.ads		20140406181356 510692af system.unsigned_types%s
+D s-wchcon.ads		20140406181358 1b7d22d2 system.wch_con%s
+X 1 ada.ads
+16K9*Ada 19e8 12|1r6 1r23 2r6 2r31
+X 4 a-inteio.ads
+18K13*Integer_Text_IO[9|46] 12|2w10 2r35
+X 8 a-textio.ads
+49K13*Text_IO 471e16 12|1w10 1r27
+X 11 buffers.ads
+2i4 Size{positive} 12|7r23 12r20 12r59 16r54 21r20 21r66 21r78 24r41
+3+9 Elem
+5k9*Buffers 2z4 3z9 12l5 12e12 12|3b14 33l5 33t12
+7T14*Buffer 10l8 10e14 12|4b14 32l8 32t14
+8Y13 Put 8>19 12|13b20 19l17 19t20
+8i19 Obj{integer} 12|15r43
+9Y13 Get 9<19 12|22b20 27l17 27t20
+9i19 Obj{integer} 12|23m16
+X 12 buffers.adb
+5i7 Start{integer} 12r33 21r34 23r30 24m16 24r26
+6i7 Actual_Size{integer} 12r42 15r22 16m16 16r32 21r45
+7a7 Data(integer) 15m16 23r23
+8b7 Test{boolean} 12r76 17m16 21r91 25m16
+13i26 Obj{integer}
+22i25 Obj{integer}
 
