@@ -3,7 +3,6 @@ A -gnatA
 P ZX
 
 RN
-RV NO_DIRECT_BOOLEAN_OPERATORS
 RV NO_IO
 RV NO_SELECT_STATEMENTS
 RV NO_TASKING
@@ -13,7 +12,7 @@ RV SPARK_05
 RV MAX_SELECT_ALTERNATIVES=3
 RV MAX_TASK_ENTRIES=2
 
-U buffers%b		buffers.adb		c5fcc69d NE OO PK GE
+U buffers%b		buffers.adb		7d762941 NE OO PK GE
 W ada%s			ada.ads			ada.ali
 W ada.integer_text_io%s	a-inteio.ads		a-inteio.ali
 W ada.text_io%s		a-textio.adb		a-textio.ali
@@ -31,7 +30,7 @@ D a-textio.ads		20140406181359 386df5d4 ada.text_io%s
 D a-tiinio.ads		20140406181359 aa04e5d6 ada.text_io.integer_io%s
 D a-unccon.ads		20140406181359 f9eb8f06 ada.unchecked_conversion%s
 D buffers.ads		20141120164932 2f9119fd buffers%s
-D buffers.adb		20141120165659 244ba310 buffers%b
+D buffers.adb		20141127095419 9cc14ccc buffers%b
 D interfac.ads		20140406181359 69adb1b9 interfaces%s
 D i-cstrea.ads		20140406181357 febc86ed interfaces.c_streams%s
 D system.ads		20140406181354 90249111 system%s
@@ -58,19 +57,19 @@ X 4 a-inteio.ads
 X 8 a-textio.ads
 49K13*Text_IO 471e16 12|1w10 1r27
 X 11 buffers.ads
-2i4 Size{positive} 12|7r23 12r20 12r59 16r54 21r20 21r66 21r78 24r41
+2i4 Size{positive} 12|7r23 17r47 18r57 24r51 27r44
 3+9 Elem
-5k9*Buffers 2z4 3z9 12l5 12e12 12|3b14 33l5 33t12
-7T14*Buffer 10l8 10e14 12|4b14 32l8 32t14
-8Y13 Put 8>19 12|13b20 19l17 19t20
-8i19 Obj{integer} 12|15r43
-9Y13 Get 9<19 12|22b20 27l17 27t20
-9i19 Obj{integer} 12|23m16
+5k9*Buffers 2z4 3z9 12l5 12e12 12|3b14 35l5 35t12
+7T14*Buffer 10l8 10e14 12|4b14 34l8 34t14
+8Y13 Put 8>19 12|15b23 21l20 21t23
+8i19 Obj{integer} 12|17r57
+9Y13 Get 9<19 12|25b23 29l20 29t23
+9i19 Obj{integer} 12|26m19
 X 12 buffers.adb
-5i7 Start{integer} 12r33 21r34 23r30 24m16 24r26
-6i7 Actual_Size{integer} 12r42 15r22 16m16 16r32 21r45
-7a7 Data(integer) 15m16 23r23
-8b7 Test{boolean} 12r76 17m16 21r91 25m16
-13i26 Obj{integer}
-22i25 Obj{integer}
+5i7 Start{integer} 14r34 24r19 26r33 27m19 27r29
+6i7 Actual_Size{integer} 14r19 17r26 18m19 18r35 24r30
+7a7 Data(integer) 17m19 26r26
+8b7 Test{boolean} 19m19 28m19
+15i29 Obj{integer}
+25i28 Obj{integer}
 
